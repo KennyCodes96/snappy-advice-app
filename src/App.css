@@ -69,7 +69,7 @@
   .heading {
     display: flex;
     align-items: center;
-    height: 582px;
+    height: 580px;
   }
   
   .button {
@@ -145,12 +145,7 @@
     .card {
         width: 80%;
         height: 30%;
-    }
-  }
+        
+     }
 
- @media only screen and (max-width: 600px) {
-    .card {
-        width: 80%;
-        height: 30%;
-    }
- }
+  }
