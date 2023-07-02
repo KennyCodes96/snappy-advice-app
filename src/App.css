@@ -28,6 +28,11 @@
   box-shadow: 1.5px 1.5px;
 }
 
+.rounded .advice-text {
+  font-size: 18px;
+  line-height: 24px;
+}
+
 .heading {
   display: flex;
   align-items: center;
@@ -120,7 +125,7 @@
   .button span {
       font-size: 10px;
   }
-  
+
   .button:hover {
       animation: none;
       transform: scale(1);
@@ -128,5 +133,10 @@
 
   .button:hover span {
       animation: none;
+  }
+  
+  .rounded .advice-text {
+      font-size: 14px;
+      line-height: 18px;
   }
 }
